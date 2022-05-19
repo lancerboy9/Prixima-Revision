@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap");
+
+:root {
+  --brand: #ff4d29;
+  --dark: #092032;
+  --body: #516171;
+  --border: rgba(0, 0, 0, 0.08);
+  --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+body {
+  font-family: "Barlow", sans-serif;
+  line-height: 1.7;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5 {
+  font-weight: 700;
+}
+
+/* top-nav */
+.top-nav {
+  background: var(--brand);
+}
+.top-nav p {
+  display: inline;
+  align-items: center;
+  margin-right: 10px;
+  color: white;
+  margin-bottom: 0;
+}
+.top-nav p i {
+  vertical-align: middle;
+}
+.top-nav .social-icons a {
+  text-decoration: none;
+  color: white;
+  height: 28px;
+  width: 28px;
+  background: #ff7763;
+  border-radius: 100px;
+  margin-right: 3px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.top-nav .social-icons a:hover {
+  color: var(--brand);
+  background: aliceblue;
+}
+
+/* bottom-nav */
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.dot{
+  color: #ff4d29;
+}
+.navbar ul li a{
+  color: var(--dark);
+  font-weight: 500;
+}
+.navbar ul li a:hover {
+  transition: all 0.5s ease;
+  color: var(--brand);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.btn-brand{
+  text-decoration: none;
+  background: var(--brand);
+  color: white !important;
+  margin-top: 9px;
+  padding: 8px 25px !important;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.btn-brand:hover{
+  transition: all 0.5s ease;
+  background: #c9351f;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.navbar{
+  box-shadow: var(--shadow);
+}
